@@ -42,6 +42,7 @@ header p span {
 .producto {
   padding: 50px ;
   width: 350px;
+  height: auto;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -52,6 +53,11 @@ header p span {
   box-shadow: 5px 5px 5px 2px rgba(14, 7, 29, 0.75);
 }
 
+.producto img{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
 
 .producto h5{
   text-align: center;
