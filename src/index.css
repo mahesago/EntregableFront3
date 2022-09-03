@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(55, 42, 66);
+}
+
+header {
+  background-color: rgb(180, 179, 225);
+  padding: 20px 40px;
+}
+
+header h1{
+  margin-bottom: 10px;
+}
+
+header p span {
+  background-color: rgb(17, 13, 67);
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 15px;
+
+}
+
+.producto {
+  padding: 50px ;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px 2px rgba(14, 7, 29, 0.75);
+}
+
+
+.producto h5{
+  text-align: center;
+  padding: 10px;
+}
+
+.producto h5 span{
+  background-color: rgb(255, 178, 178);
+  padding: 3px;
+  font-weight: lighter;
+  color: rgb(155, 0, 0);
+  border-radius: 3px;
+}
+
+
+.producto button{
+  padding: 5px;
+  text-decoration: solid;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: rgb(93, 112, 153);
+  border-style: none;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.producto h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
